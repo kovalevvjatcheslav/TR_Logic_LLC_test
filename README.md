@@ -1,3 +1,6 @@
+[![Travis-CI Build
+Status](https://travis-ci.org/kovalevvjatcheslav/TR_Logic_LLC_test.svg?branch=master)](https://travis-ci.org/kovalevvjatcheslav/TR_Logic_LLC_test)
+
 Реализовать простое REST API с одним единственным методом, который
 загружает изображения.
 
