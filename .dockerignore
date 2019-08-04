@@ -1,0 +1,10 @@
+.gitattributes
+.gitignore
+.idea/
+.venv/
+media/
+test_images/
+*.Dockerfile
+.git/
+.dockerignore
+docker-compose.yml

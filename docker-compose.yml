@@ -1,0 +1,17 @@
+version: '3.7'
+
+services:
+  api:
+    image: api
+    restart: on-failure
+    env_file: .env
+    ports:
+      - "8080:8080"
+    volumes:
+      - ./media:/project/media
+    build:
+      context: .
+      dockerfile: api.Dockerfile
+    container_name: api
+#    command: bash -c "uwsgi uwsgi.ini"
+
