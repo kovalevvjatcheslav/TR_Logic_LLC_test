@@ -6,12 +6,10 @@ services:
     restart: on-failure
     env_file: .env
     ports:
-      - "8080:8080"
+      - "${API_PORT}:${API_PORT}"
     volumes:
       - ./media:/project/media
     build:
       context: .
       dockerfile: api.Dockerfile
     container_name: api
-#    command: bash -c "uwsgi uwsgi.ini"
-
